@@ -1,5 +1,5 @@
-import 'package:consultar_cep_2/app/view/components/button_search_cep_view.dart';
-import 'package:consultar_cep_2/app/view/components/text_cep_view.dart';
+import 'package:consultar_cep_2/app/view/components/home/button_search_home_view.dart';
+import 'package:consultar_cep_2/app/view/components/home/text_cep_home_view.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

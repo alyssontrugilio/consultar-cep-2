@@ -1,5 +1,6 @@
-import 'package:consultar_cep_2/app/view/home_page.dart';
 import 'package:flutter/material.dart';
+
+import 'app/view/page/login_page.dart';
 
 void main() {
   runApp(const AppWidgets());
@@ -11,8 +12,9 @@ class AppWidgets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark(),
-      home: const HomePage(),
+      theme:
+          ThemeData(brightness: Brightness.dark, colorSchemeSeed: Colors.cyan),
+      home: const LoginPage(),
     );
   }
 }
