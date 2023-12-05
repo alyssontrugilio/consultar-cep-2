@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
+import '../../../controller/login_controller.dart';
+
 class PasswordAdress extends StatelessWidget {
   const PasswordAdress({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const SizedBox(
+    return SizedBox(
       child: TextField(
+        controller: passwordController,
         obscureText: true,
-        decoration:
-            InputDecoration(hintText: 'Senha', border: OutlineInputBorder()),
+        decoration: const InputDecoration(
+            hintText: 'Senha', border: OutlineInputBorder()),
       ),
     );
   }

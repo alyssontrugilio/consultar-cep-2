@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 
+import '../../../controller/login_controller.dart';
+
 class EmailAdress extends StatelessWidget {
   const EmailAdress({super.key});
   @override
   Widget build(BuildContext context) {
-    return const SizedBox(
+
+    return SizedBox(
       child: TextField(
+        controller: emailController,
         keyboardType: TextInputType.emailAddress,
-        decoration:
-            InputDecoration(hintText: 'E-mail', border: OutlineInputBorder()),
+        decoration: const InputDecoration(
+          hintText: 'E-mail',
+          border: OutlineInputBorder(),
+        ),
       ),
     );
   }
