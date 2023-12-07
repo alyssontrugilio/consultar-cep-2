@@ -1,3 +1,4 @@
+import 'package:consultar_cep_2/app/models/info_model.dart';
 import 'package:flutter/material.dart';
 
 class ButtonSearchCep extends StatelessWidget {
@@ -6,7 +7,10 @@ class ButtonSearchCep extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: () async {
+        final infoCepModel = await fetch();
+        print(infoCepModel.cep);
+      },
       child: const Text('Pesquisar'),
     );
   }
