@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../controller/login_controller.dart';
+import '../../../controllers/login_controller.dart';
 
 class PasswordAdress extends StatelessWidget {
   const PasswordAdress({super.key});

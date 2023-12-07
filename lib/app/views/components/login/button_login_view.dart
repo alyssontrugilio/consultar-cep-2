@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../controller/login_controller.dart';
-import '../../page/home_page.dart';
+import '../../../controllers/login_controller.dart';
+import '../../pages/home_page.dart';
 
 class ButtonLogin extends StatelessWidget {
   const ButtonLogin({super.key});
