@@ -1,8 +1,5 @@
-import 'package:consultar_cep_2/app/views/components/login/button_login_view.dart';
-import 'package:consultar_cep_2/app/views/components/login/text_email_login_view.dart';
-import 'package:consultar_cep_2/app/views/components/login/text_password_login_view.dart';
 import 'package:flutter/material.dart';
-
+import '../components/login/login.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {

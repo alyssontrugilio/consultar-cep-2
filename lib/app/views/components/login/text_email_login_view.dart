@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-
-import '../../../controllers/login_controller.dart';
+import '../../../controllers/controllers.dart';
 
 class EmailAdress extends StatelessWidget {
   const EmailAdress({super.key});
   @override
   Widget build(BuildContext context) {
-
     return SizedBox(
       child: TextField(
         controller: emailController,

@@ -1,6 +1,5 @@
-import 'package:consultar_cep_2/app/models/info_model.dart';
 import 'package:flutter/material.dart';
-
+import '../../../models/models.dart';
 import '../../pages/result_page.dart';
 
 class ButtonSearchCep extends StatelessWidget {

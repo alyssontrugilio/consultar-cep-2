@@ -1,6 +1,5 @@
-import 'package:consultar_cep_2/app/views/pages/home_page.dart';
-import 'package:consultar_cep_2/app/views/pages/login_page.dart';
 import 'package:flutter/material.dart';
+import 'app/views/pages/pages.dart';
 
 void main() {
   runApp(const AppWidgets());

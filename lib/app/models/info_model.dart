@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../controllers/search_controller.dart';
+import '../controllers/controllers.dart';
 
 class InfoCepModel {
   final String cep;

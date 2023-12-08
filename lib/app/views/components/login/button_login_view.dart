@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../controllers/login_controller.dart';
+import '../../../controllers/controllers.dart';
 import '../../pages/home_page.dart';
 
 class ButtonLogin extends StatelessWidget {

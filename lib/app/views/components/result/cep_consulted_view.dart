@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../controllers/search_controller.dart';
+import '../../../controllers/controllers.dart';
 
 class CepConsultedResult extends StatelessWidget {
   const CepConsultedResult({super.key});

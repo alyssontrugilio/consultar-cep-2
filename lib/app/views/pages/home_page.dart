@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../components/home/button_search_home_view.dart';
-import '../components/home/text_cep_home_view.dart';
+
+import '../components/home/home.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

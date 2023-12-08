@@ -1,9 +1,5 @@
-import 'package:consultar_cep_2/app/controllers/search_controller.dart';
-import 'package:consultar_cep_2/app/views/components/result/cep_consulted_view.dart';
-import 'package:consultar_cep_2/app/views/components/result/list_text_view.dart';
-import 'package:consultar_cep_2/app/views/components/result/search_new_cep_view.dart';
-import 'package:consultar_cep_2/app/views/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import '../components/result/result.dart';
 
 class ResultPage extends StatelessWidget {
   const ResultPage({super.key});
