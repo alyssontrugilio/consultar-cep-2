@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../../../controllers/login_controller.dart';
@@ -15,7 +14,7 @@ class ButtonLogin extends StatelessWidget {
               passwordController.text == '1234') {
             Navigator.push(context,
                 MaterialPageRoute(builder: (context) => const HomePage()));
-          } 
+          }
         },
         child: const Text('Acessar'),
       ),

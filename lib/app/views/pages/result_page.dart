@@ -1,3 +1,7 @@
+import 'package:consultar_cep_2/app/controllers/search_controller.dart';
+import 'package:consultar_cep_2/app/views/components/result/cep_consulted_view.dart';
+import 'package:consultar_cep_2/app/views/components/result/list_text_view.dart';
+import 'package:consultar_cep_2/app/views/components/result/search_new_cep_view.dart';
 import 'package:consultar_cep_2/app/views/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,49 +21,13 @@ class ResultPage extends StatelessWidget {
               alignment: Alignment.center,
               child: const Column(
                 children: [
-                  Text(
-                    'CEP consultado:',
-                    style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    '87035370',
-                    style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
-                  ),
+                  CepConsultedResult(),
                 ],
               )),
           const SizedBox(height: 30),
-          const Text(
-            'Endereço: ',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-          ),
-          const SizedBox(height: 20),
-          const Text(
-            'Bairro: ',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-          ),
-          const SizedBox(height: 20),
-          const Text(
-            'Cidade: ',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-          ),
-          const SizedBox(height: 20),
-          const Text(
-            'Estado: ',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-          ),
-          const SizedBox(height: 20),
-          const Text(
-            'DDD utilizado: ',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-          ),
+          const ListTextResult(),
           const SizedBox(height: 80),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const HomePage()));
-            },
-            child: const Text('Nova Pesquisa'),
-          )
+          const SearchNewCepResult()
         ],
       ),
     ));

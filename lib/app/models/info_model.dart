@@ -35,6 +35,5 @@ Future<InfoCepModel> fetch() async {
   var json = jsonDecode(response.body);
   var infoCepModel = InfoCepModel.fromJson(json);
 
-  print(infoCepModel.address);
   return infoCepModel;
 }

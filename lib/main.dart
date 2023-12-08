@@ -1,4 +1,5 @@
 import 'package:consultar_cep_2/app/views/pages/home_page.dart';
+import 'package:consultar_cep_2/app/views/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class AppWidgets extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme:
           ThemeData(brightness: Brightness.dark, colorSchemeSeed: Colors.cyan),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
